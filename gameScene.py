@@ -5,28 +5,17 @@ import pyglet.image
 import cocos.sprite
 import pyglet.app
 
-import pygame
 import math
 
 import cocos.audio
-import cocos.audio.pygame
 import cocos.audio.pygame.mixer
 
 import cocos.actions as ac
-from collections import defaultdict
 from cocos.director import director
 from cocos.actions.interval_actions import MoveBy
-from pyglet.image import Animation
 from pyglet.image import load
-from pyglet.image import *
 
 from cocos.scenes.transitions import TurnOffTilesTransition
-from cocos.scenes.transitions import FadeDownTransition
-import cocos.euclid as eu
-import cocos.collision_model as cm
-
-import cocos.collision_model as cm
-from collections import defaultdict
 from pyglet.window import key
 import time
 
