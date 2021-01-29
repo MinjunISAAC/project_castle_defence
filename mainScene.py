@@ -4,7 +4,7 @@ import pyglet.font
 import pyglet.resource
 
 from mainMenuScene import new_menu
-
+# for test
 if __name__ == '__main__':
     pyglet.resource.path.append('assets')
     pyglet.resource.reindex()
